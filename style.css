@@ -1,0 +1,17 @@
+div.bloco-de-texto{
+    background-color: #f3f3f3;
+    width: 46%;
+    margin: 10px;
+}
+
+h3 {
+    display: -webkit-box; /* Especifica como o elemento deverá ser exibido */
+    -webkit-box-orient: vertical; /* Como o conteúdo está sendo apresentado? */
+    -webkit-line-clamp: 3; /* Conterá o texto na quantidade de linha específicada. Propriedade dependente de combinação com 'display: -webkit-box' */
+    overflow: hidden; /* O que fazer com o conteúdo que está além do limite definido? */
+    margin: auto; /* Definir margem automática para os 4 lados */
+    font-size: 20px; /* Qual o tamanho da fonte? */
+    font-family: Roboto, Helvetica, Arial, Verdana, sans-serif; /* Qual fonte está sendo usada? */
+    font-weight: bold; /* Espessura da fonte */
+    color: #666; /* Cor do texto */
+}
